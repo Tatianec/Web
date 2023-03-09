@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body style="margin: 0px 0px;">
+    <div  style="text-align: center; background-color: lightblue; margin: 0px 0px;  height: 100%; position: fixed; width: 100%;">
+        <h1 style="margin: 0px 0px">Contato de todos os departamentos</h1>
+        <h3><a href="https://www.fateclins.edu.br/web/contato">Clique aqui</a> para visualizar todos os contatos</h3>
+        <div>
+            <form style="size: 100%;">
+                <p>Prencha o formulário abaixo para entrar em contato por e-mail</p>
+                <h4>Dados pessoais: </h4>
+                <div>
+                    <label for="letter">Nome: </label>
+                    <input type="text" name="letter" id="letter" required pattern="[a-zA-Z\s]+$">
+                </div>
+                <br>
+                <div>
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder="(xx) xxxx-xxxx" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email" placeholder="email@example.com">
+                </div>
+                <br>
+                <div>
+                    <label for="suggestion">Assunto:</label><br>
+                    <textarea id="suggestion" name="suggestion" rows="10" cols="80"></textarea>
+                </div>
+                <br>
+                <div style="padding-left: 335px;">
+                    <input type="button" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
