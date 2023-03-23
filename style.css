@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+img{
+    float: inline-start;
+    width: 10%;
+    height: 10%;
+    
+}
+.personalidade{
+    width: auto;
+    border: 10px solid black;
+    padding: 80px;
+    margin: 10px;
+    background-color: lightblue;
+    height: auto;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    margin: 20px;
+    position: relative;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 4px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+  }
+  li{
+    list-style: none;
+  }
+  p, a{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
