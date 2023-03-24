@@ -4,41 +4,64 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
-img{
-    float: inline-start;
+.identificacao > img{
     width: 10%;
-    height: 10%;
-    
+    height: 10%;   
+}
+h1{
+  color: #212B20;
 }
 .personalidade{
     width: auto;
-    border: 10px solid black;
+    border: 10px solid #212B20;
     padding: 80px;
     margin: 10px;
-    background-color: lightblue;
     height: auto;
+    background-color :  #2C3B2B;
+    color: #C0FFBA;
 }
+
 .flex-container {
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+    background-color: #1F2C18;
     margin: 20px;
     position: relative;
   }
-  
-  .flex-container > div {
-    background-color: #f1f1f1;
+
+  .qualificacao{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2C18;
+    margin: 20px;
+    position: relative;
+  }
+
+  .qualificacao > div{
     width: 100%;
     margin: 4px;
     text-align: center;
     line-height: 50px;
     font-size: 12px;
+    background-color: #688A65; 
+  }
+  
+  .flex-container > div {
+    width: 100%;
+    margin: 4px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+    background-color: #475E45; 
+
   }
   li{
     list-style: none;
+    
   }
   p, a{
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 20px;
+    color:#C0FFBA; 
   }
